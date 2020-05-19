@@ -40,5 +40,5 @@ d3.json("data/data.json").then((importedData) => {
   };
 
   // Render the plot to the div tag with id "plot"
-  Plotly.newPlot("plot", chartData, layout);
+  Plotly.newPlot("plot", chartData, layout, {responsive: true});
 });
